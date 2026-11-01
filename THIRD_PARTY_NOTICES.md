@@ -1,20 +1,12 @@
-# 第三方组件声明
+# Photerest 1.3.3 第三方声明
 
-Photerest 1.2.1 使用以下第三方运行时组件。Photerest 自有代码保持闭源，第三方组件的权利及义务分别由其许可证规定，不受 Photerest 专有许可中的限制覆盖。
+Photerest 自有代码闭源，允许免费安装和使用，见 LICENSE。以下第三方组件分别适用 Apache License 2.0，不受 Photerest 专有条款限制。完整许可文本见 licenses/Apache-2.0.txt。
 
-## 项目及署名
+AndroidX / Jetpack（含 WorkManager、Compose、Room、Lifecycle 等）：The Android Open Source Project 及贡献者，https://android.googlesource.com/platform/frameworks/support/ 。
+Kotlin 标准库、Kotlin Coroutines 及 JetBrains annotations：JetBrains s.r.o. 及相应项目贡献者，https://github.com/JetBrains/kotlin 、https://github.com/Kotlin/kotlinx.coroutines 、https://github.com/JetBrains/java-annotations 。
+Guava ListenableFuture：Google 及 Guava 贡献者，https://github.com/google/guava 。
 
-- AndroidX / Jetpack（含 Compose、Material、Room、Lifecycle 等）：The Android Open Source Project 及贡献者。项目：https://android.googlesource.com/platform/frameworks/support/
-- Kotlin 标准库：JetBrains s.r.o. 及 Kotlin 贡献者。项目：https://github.com/JetBrains/kotlin
-- Kotlin Coroutines：JetBrains s.r.o. 及 Kotlin 贡献者。项目：https://github.com/Kotlin/kotlinx.coroutines
-- JetBrains Java annotations：JetBrains s.r.o. 及贡献者。项目：https://github.com/JetBrains/java-annotations
-- Guava ListenableFuture：Google 及 Guava 贡献者。项目：https://github.com/google/guava
-
-上述组件均声明采用 Apache License 2.0。完整许可文本随本版本提供：[Apache-2.0.txt](licenses/Apache-2.0.txt)。这些第三方组件未由 Photerest 修改其源码；构建工具会进行正常的打包和编译处理。
-
-## 本版本运行时依赖清单
-
-清单根据 1.2.1 构建配置解析的 debugRuntimeClasspath 生成，并核对各组件 Maven POM（必要时包括父 POM）中的许可声明。包括传递依赖及该测试构建的 UI 测试清单辅助组件；不包含测试 APK、测试照片或测试脚本。
+清单按本版本实际 debugRuntimeClasspath 解析，并核对 Maven POM 或父 POM 的许可。第三方源码未修改，构建仅作正常编译打包。测试 APK 和测试照片不属于应用交付内容。
 
 | 组件及版本 | 许可证 |
 |---|---|
@@ -45,6 +37,7 @@ Photerest 1.2.1 使用以下第三方运行时组件。Photerest 自有代码保
 | `androidx.compose.ui:ui-tooling-preview-android:1.7.3` | Apache-2.0 |
 | `androidx.compose.ui:ui-unit-android:1.7.3` | Apache-2.0 |
 | `androidx.compose.ui:ui-util-android:1.7.3` | Apache-2.0 |
+| `androidx.concurrent:concurrent-futures-ktx:1.1.0` | Apache-2.0 |
 | `androidx.concurrent:concurrent-futures:1.1.0` | Apache-2.0 |
 | `androidx.core:core-ktx:1.13.1` | Apache-2.0 |
 | `androidx.core:core:1.13.1` | Apache-2.0 |
@@ -55,24 +48,31 @@ Photerest 1.2.1 使用以下第三方运行时组件。Photerest 自有代码保
 | `androidx.interpolator:interpolator:1.0.0` | Apache-2.0 |
 | `androidx.lifecycle:lifecycle-common-java8:2.8.6` | Apache-2.0 |
 | `androidx.lifecycle:lifecycle-common-jvm:2.8.6` | Apache-2.0 |
+| `androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.6` | Apache-2.0 |
 | `androidx.lifecycle:lifecycle-livedata-core:2.8.6` | Apache-2.0 |
+| `androidx.lifecycle:lifecycle-livedata:2.8.6` | Apache-2.0 |
 | `androidx.lifecycle:lifecycle-process:2.8.6` | Apache-2.0 |
 | `androidx.lifecycle:lifecycle-runtime-android:2.8.6` | Apache-2.0 |
 | `androidx.lifecycle:lifecycle-runtime-compose-android:2.8.6` | Apache-2.0 |
 | `androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.6` | Apache-2.0 |
+| `androidx.lifecycle:lifecycle-service:2.8.6` | Apache-2.0 |
 | `androidx.lifecycle:lifecycle-viewmodel-android:2.8.6` | Apache-2.0 |
 | `androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.6` | Apache-2.0 |
 | `androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.6` | Apache-2.0 |
 | `androidx.profileinstaller:profileinstaller:1.3.1` | Apache-2.0 |
 | `androidx.room:room-common:2.6.1` | Apache-2.0 |
+| `androidx.room:room-ktx:2.6.1` | Apache-2.0 |
 | `androidx.room:room-runtime:2.6.1` | Apache-2.0 |
 | `androidx.savedstate:savedstate-ktx:1.2.1` | Apache-2.0 |
 | `androidx.savedstate:savedstate:1.2.1` | Apache-2.0 |
 | `androidx.sqlite:sqlite-framework:2.4.0` | Apache-2.0 |
 | `androidx.sqlite:sqlite:2.4.0` | Apache-2.0 |
 | `androidx.startup:startup-runtime:1.1.1` | Apache-2.0 |
-| `androidx.tracing:tracing:1.0.0` | Apache-2.0 |
+| `androidx.tracing:tracing-ktx:1.2.0` | Apache-2.0 |
+| `androidx.tracing:tracing:1.2.0` | Apache-2.0 |
 | `androidx.versionedparcelable:versionedparcelable:1.1.1` | Apache-2.0 |
+| `androidx.work:work-runtime-ktx:2.10.5` | Apache-2.0 |
+| `androidx.work:work-runtime:2.10.5` | Apache-2.0 |
 | `com.google.guava:listenablefuture:1.0` | Apache-2.0 |
 | `org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22` | Apache-2.0 |
 | `org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22` | Apache-2.0 |
