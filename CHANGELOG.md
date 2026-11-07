@@ -1,5 +1,35 @@
 # 更新记录
 
+## [1.6.1](https://github.com/Max1426/Photerest/releases/tag/v1.6.1) · 经典界面正式版
+
+- 恢复 1.5.2 的设置底部面板、毛玻璃、每日精选、照片菜单和资料管理界面。
+- 主页图标、详情返回箭头和毛玻璃预览箭头保留无外描边样式。
+- 从 1.6.0 覆盖升级已在模拟器验证，原资料、收藏、相册、推荐和毛玻璃参数保留。
+
+## [1.6.0](https://github.com/Max1426/Photerest/releases/tag/v1.6.0) · Material 3 历史试验版
+
+- 设置与照片操作界面试验 Material 3 和 Material 3 Expressive。
+- 详情及预览返回箭头去除外描边。后续经典版 1.6.1 恢复经典界面，Material 实验在 Alpha 中继续。
+
+## [1.5.2](https://github.com/Max1426/Photerest/releases/tag/v1.5.2) · 主页图标去外描边
+
+- 去掉主页图标外侧的反色描边，毛玻璃预览同步更新。
+
+## [1.5.1](https://github.com/Max1426/Photerest/releases/tag/v1.5.1) · 可调毛玻璃
+
+- 详情返回按钮支持实时毛玻璃。
+- 外观设置可预览并调整模糊、遮罩浓度和颜色。
+
+## [1.5.0](https://github.com/Max1426/Photerest/releases/tag/v1.5.0) · 实时毛玻璃与系统相册入口
+
+- 底部主页和头像按钮使用实时毛玻璃。Android 8–11 使用半透明底色。
+- 照片详情支持在系统相册或查看器打开同一张原图。
+
+## [1.4.0](https://github.com/Max1426/Photerest/releases/tag/v1.4.0) · 间隔推荐与每周静默
+
+- 新增按自定义分钟间隔推荐，保留固定时点模式。
+- 每个星期几可全天停用或设置多段静默时段。
+
 ## 1.3.3 · 2026-11-01 · 公开测试版
 
 - 修复每日精选返回桌面、熄屏后可能延迟至打开应用才发送的问题，改用 Android 系统定时唤醒，无需保持应用页面打开。
