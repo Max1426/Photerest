@@ -80,3 +80,8 @@ Guava ListenableFuture：Google 及 Guava 贡献者，https://github.com/google/
 | `org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3` | Apache-2.0 |
 | `org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.7.3` | Apache-2.0 |
 | `org.jetbrains:annotations:23.0.0` | Apache-2.0 |
+
+
+## Search engine marks
+
+Google G: original artwork from https://www.gstatic.com/images/branding/product/2x/googleg_48dp.png . Baidu: original favicon from https://www.baidu.com/favicon.ico, converted losslessly to PNG. Marks remain the property of their respective owners; inclusion does not imply endorsement. Both are displayed without recoloring or redrawing.
