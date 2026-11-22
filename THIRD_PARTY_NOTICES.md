@@ -85,3 +85,6 @@ Guava ListenableFuture：Google 及 Guava 贡献者，https://github.com/google/
 ## Search engine marks
 
 Google G: original artwork from https://www.gstatic.com/images/branding/product/2x/googleg_48dp.png . Baidu: original favicon from https://www.baidu.com/favicon.ico, converted losslessly to PNG. Marks remain the property of their respective owners; inclusion does not imply endorsement. Both are displayed without recoloring or redrawing.
+
+
+Photerest AI client SDK: Apache-2.0; source supplied with this release. Google AI Edge Gallery-derived input: Apache-2.0. Shared Hub source and dependency/model notices are in the companion Alpha release. No model weights bundled.
